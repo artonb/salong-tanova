@@ -7,7 +7,7 @@ import ContactUsPage from "./components/pages/ContactUsPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/salong-tanova">
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
