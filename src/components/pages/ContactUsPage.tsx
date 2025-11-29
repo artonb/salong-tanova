@@ -12,7 +12,7 @@ import img2 from "../../assets/shop1.jpg";
 export default function ContactPage() {
   useEffect(() => {
     window.scrollTo({
-      top: 0,
+      top: 600,
       behavior: "smooth",
     });
   }, []);
