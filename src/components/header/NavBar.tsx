@@ -23,9 +23,9 @@ export default function NavBar() {
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative z-10 flex flex-col h-full">
         <div className="flex flex-row items-center justify-between h-20 w-full max-w-[1200px] mx-auto">
-          <a href="/">
+          <Link to="/">
             <img src={logo} className="w-68 pt-5 pl-10 cursor-pointer" />
-          </a>
+          </Link>
           <div className="hidden lg:flex flex-row gap-15 pr-10 text-white">
             <button
               onClick={goToPrices}

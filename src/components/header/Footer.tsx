@@ -1,6 +1,6 @@
 import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa";
 import logo from "../../assets/tanova-logo-white.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -66,9 +66,9 @@ export default function Footer() {
             </h4>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
-                <a href="/" className="hover:text-white transition">
+                <Link to="/" className="hover:text-white transition">
                   Startsida
-                </a>
+                </Link>
               </li>
               <li>
                 <button
@@ -79,14 +79,14 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <a href="/about" className="hover:text-white transition">
+                <Link to="/about" className="hover:text-white transition">
                   Om oss
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-white transition">
+                <Link to="/contact" className="hover:text-white transition">
                   Kontakt
-                </a>
+                </Link>
               </li>
               <li>
                 <a
