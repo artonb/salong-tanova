@@ -69,7 +69,7 @@ export default function AboutUsPage() {
                 Om frisören
               </p>
               <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
-                Tanja Tanova
+                Tanja Jovanova
               </h2>
               <p className="mt-5 text-sm sm:text-base leading-relaxed text-gray-600">
                 Med över tio års erfarenhet brinner Tanja för att skapa
