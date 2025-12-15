@@ -119,7 +119,7 @@ export default function NavBar() {
                 setOpen(false);
                 goToPrices();
               }}
-              className="block w-full text-left py-2 text-base hover:text-gray-300"
+              className="block w-full py-2 text-base hover:text-gray-300"
             >
               Priser
             </button>
@@ -128,7 +128,7 @@ export default function NavBar() {
                 setOpen(false);
                 navigate("/about");
               }}
-              className="block w-full text-left py-2 text-base hover:text-gray-300"
+              className="block w-full py-2 text-base hover:text-gray-300"
             >
               Om oss
             </button>
@@ -137,7 +137,7 @@ export default function NavBar() {
                 setOpen(false);
                 navigate("/contact");
               }}
-              className="block w-full text-left py-2 text-base hover:text-gray-300"
+              className="block w-full py-2 text-base hover:text-gray-300"
             >
               Kontakt
             </button>
