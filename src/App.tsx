@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 import NavBar from "./components/header/NavBar";
 import Footer from "./components/header/Footer";
 import HomePage from "./components/pages/HomePage";
@@ -7,7 +7,7 @@ import ContactUsPage from "./components/pages/ContactUsPage";
 
 function App() {
   return (
-    <Router basename="/salong-tanova">
+    <>
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/contact" element={<ContactUsPage />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
